@@ -23,25 +23,25 @@ An api that you can plan your day to day, writing your notes and obligations!
 Clone the project
 
 ```bash
-  git clone git@github.com:Easily-Crypto/easily-crypto-backend.git
+  git clone git@github.com:To-Do-application/to_do_back_end.git
 ```
 
 Enter the project directory
 
 ```bash
-  cd easily-crypto-backend
+  cd to_do_back_end
 ```
 
-Crie seu ambiente virtual
+Create your virtual enviroment
 
 ```bash
-  python -m venv nomeDoSeuAmbiente
+  python -m venv nameOfYourVirtualEnvironment
 ```
 
-Create your virtual environment
+Activate your virtual environment
 
 ```bash
-  source nomeDoSeuAmbiente/bin/activate
+  source nameOfYourVirtualEnvironment/bin/activate
 ```
 
 Install the dependencies
@@ -49,6 +49,8 @@ Install the dependencies
 ```bash
   pip install -r requirements.txt
 ```
+
+Config your database settings with postgres: Open the file .env.example to see more details.
 
 Run the migrations
 
